@@ -7,7 +7,9 @@ public class Main {
 //        Uppgift_2.main();
 //        System.out.println();
 //        Uppgift_3.main();
-        System.out.println();
-        Uppgift_4.main();
+//        System.out.println();
+//        Uppgift_4.main();
+//        System.out.println();
+        Uppgift_5.main();
     }
 }

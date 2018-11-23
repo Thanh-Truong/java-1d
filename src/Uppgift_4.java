@@ -18,6 +18,7 @@ public class Uppgift_4 {
         return (char) System.in.read();
     }
 
+    // exit programmet om tecken '-' och sedan tecken '1' matas in
     private static boolean testExit(char tecken) throws IOException{
         if ('-' == tecken) {
             tecken = readChar();
