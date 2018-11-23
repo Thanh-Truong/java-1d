@@ -10,6 +10,8 @@ public class Main {
 //        System.out.println();
 //        Uppgift_4.main();
 //        System.out.println();
-        Uppgift_5.main();
+//        Uppgift_5.main();
+//        System.out.println();
+        Uppgift_6.Change.main();
     }
 }
