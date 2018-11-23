@@ -12,6 +12,8 @@ public class Main {
 //        System.out.println();
 //        Uppgift_5.main();
 //        System.out.println();
-        Uppgift_6.Change.main();
+//        Uppgift_6.Change.main();
+//        System.out.println();
+        Uppgift_7.main();
     }
 }
