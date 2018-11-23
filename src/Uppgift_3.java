@@ -18,7 +18,7 @@ public class Uppgift_3 {
 //            1.3
 //            0.1
 //    Det minsta talet är: 0,100000
-    
+
     private static int min(int a, int b) {
         return Math.min(a, b);
     }

@@ -1,9 +1,13 @@
+import java.io.IOException;
+
 public class Main {
-    public static void main(String[] args){
-        Uppgift_1.main();
+    public static void main(String[] args) throws IOException {
+//        Uppgift_1.main();
+//        System.out.println();
+//        Uppgift_2.main();
+//        System.out.println();
+//        Uppgift_3.main();
         System.out.println();
-        Uppgift_2.main();
-        System.out.println();
-        Uppgift_3.main();
+        Uppgift_4.main();
     }
 }
