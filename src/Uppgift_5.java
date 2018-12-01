@@ -15,16 +15,16 @@ public class Uppgift_5 {
         return (year %4 == 0 && year % 100 != 0) || year % 400 == 0;
     }
 
-    public static void main(){
+    public static void main(String [] args){
         System.out.println("run:");
         Scanner in = new Scanner(System.in);
 
         System.out.print("Mata in ett år: ");
         int year = in.nextInt();
         if (leapYear(year)) {
-            System.out.printf("%d är ett skottår (feburari har 29 dagar)", year);
+            System.out.printf("%d är ett skottår (feburari har 29 dagar) \n", year);
         } else {
-            System.out.printf("%d är inte ett skottår", year);
+            System.out.printf("%d är inte ett skottår \n", year);
         }
     }
 }

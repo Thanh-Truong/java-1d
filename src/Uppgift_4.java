@@ -27,14 +27,14 @@ public class Uppgift_4 {
         return false;
     }
 
-    public static void main() throws IOException {
+    public static void main(String [] args) throws IOException {
         System.out.println("run:");
 
         while (true){
             System.out.print("Mata in ett input: ");
             char tecken = readChar();
             if ('A' <= tecken && tecken <= 'Z') {
-                System.out.printf("%c är en stor bokstav och har unicode %d", tecken, (int)tecken);
+                System.out.printf("%c är en stor bokstav och har unicode %d", tecken, (int) tecken);
             } else if ('a' <= tecken && tecken <= 'z') {
                 System.out.printf("%c är en lite bokstav och har unicode %d", tecken, (int) tecken);
             } else if (testExit(tecken)){

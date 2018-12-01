@@ -1,4 +1,3 @@
-public class Uppgift_7 {
 //    En tabell innehåller följande alfabet:
 //    A B C D E
 //    F G H I J
@@ -9,13 +8,13 @@ public class Uppgift_7 {
 //    Din uppgift: Skapa ett program som består av metoden main och instansmetoden
 //    reverse.
 //    Utskriften ska se ut så här:
+public class Uppgift_7 {
 
-    public static class ReverseArray {
-
+    public class ReverseArray {
         // Metoden visar argumentteckenvektorer i omvänd
-        public void reverse(char [][] teckens) {
+        public void reverse(char[][] teckens) {
             for (int i = 0; i < teckens.length; i++) {
-                for (int j = teckens[i].length - 1; j >= 0  ; j--) {
+                for (int j = teckens[i].length - 1; j >= 0; j--) {
                     System.out.printf("%c ", teckens[i][j]);
                 }
                 System.out.println();
@@ -23,12 +22,12 @@ public class Uppgift_7 {
         }
     }
 
-    public static void main() {
+    public static void main(String []args) {
         ReverseArray revArray = new ReverseArray();
-        char [][] teckens =
+        char[][] teckens =
                 {{'A', 'B', 'C', 'D', 'E'},
-                {'F', 'G', 'H', 'I', 'J'},
-                {'K', 'L', 'M', 'N', 'O'}};
+                        {'F', 'G', 'H', 'I', 'J'},
+                        {'K', 'L', 'M', 'N', 'O'}};
         revArray.reverse(teckens);
     }
 }

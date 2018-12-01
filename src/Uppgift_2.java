@@ -17,9 +17,10 @@ public class Uppgift_2 {
         for (int i = start; i <= end ; i++) {
             System.out.printf("%d ", i);
         }
+	System.out.println();
     }
 
-    public static void main() {
+    public static void main(String[] args) {
         System.out.println("Mata in två hetal:");
         Scanner in = new Scanner(System.in);
         int start = in.nextInt();

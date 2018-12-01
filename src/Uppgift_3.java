@@ -27,7 +27,7 @@ public class Uppgift_3 {
         return Math.min(a, b);
     }
 
-    public static void main() {
+    public static void main(String []args) {
         System.out.println("run:");
         System.out.println("Mata in två hetal :");
         Scanner in = new Scanner(System.in);
@@ -40,5 +40,6 @@ public class Uppgift_3 {
         float c = in.nextFloat();
         float d = in.nextFloat();
         System.out.printf("Det minsta talet är: %f", min(c, d));
+        System.out.println();
     }
 }

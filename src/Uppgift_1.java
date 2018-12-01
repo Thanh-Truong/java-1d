@@ -8,7 +8,7 @@ public class Uppgift_1 {
     // dess medelvärde. Skapa motsvarande program.
     // Utskriften ska se ut så här:
     //
-    public static void main() {
+    public static void main(String args[]) {
         int[][] tvådimensionel_array = {{10, 12, 14, 16, 18, 20},
                 {11, 13, 15, 17, 19, 21}};
 
@@ -30,6 +30,6 @@ public class Uppgift_1 {
                 count++;
             }
         }
-        System.out.printf("Mdelvärdet: %.1f", sum * 1.0 / count);
+        System.out.printf("Mdelvärdet: % .1f \n", sum * 1.0 / count);
     }
 }
