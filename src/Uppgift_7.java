@@ -10,7 +10,7 @@
 //    Utskriften ska se ut så här:
 public class Uppgift_7 {
 
-    public class ReverseArray {
+    private static class ReverseArray {
         // Metoden visar argumentteckenvektorer i omvänd
         public void reverse(char[][] teckens) {
             for (int i = 0; i < teckens.length; i++) {
@@ -23,7 +23,7 @@ public class Uppgift_7 {
     }
 
     public static void main(String []args) {
-        ReverseArray revArray = new ReverseArray();
+        ReverseArray revArray =   new ReverseArray();
         char[][] teckens =
                 {{'A', 'B', 'C', 'D', 'E'},
                         {'F', 'G', 'H', 'I', 'J'},
