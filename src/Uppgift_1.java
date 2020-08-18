@@ -8,28 +8,13 @@ public class Uppgift_1 {
     // dess medelvärde. Skapa motsvarande program.
     // Utskriften ska se ut så här:
     //
+    private static void test(StringBuilder str) {
+        str.append("b");
+    }
     public static void main(String args[]) {
-        int[][] tvådimensionel_array = {{10, 12, 14, 16, 18, 20},
-                {11, 13, 15, 17, 19, 21}};
-
-        System.out.println("run:");
-
-        for (int[] row : tvådimensionel_array) {
-            for (int item : row) {
-                System.out.print(item);
-                System.out.print(" ");
-            }
-            System.out.println();
-        }
-        // Beräkna medelvärdet av all vektorns element
-        int sum, count;
-        sum = count = 0;
-        for (int[] row : tvådimensionel_array) {
-            for (int item : row) {
-                sum += item;
-                count++;
-            }
-        }
-        System.out.printf("Mdelvärdet: % .1f \n", sum * 1.0 / count);
+        StringBuilder a = new StringBuilder("a");
+        System.out.println(a);
+        test(a);
+        System.out.println(a);
     }
 }
